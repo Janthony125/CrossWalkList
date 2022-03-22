@@ -49,7 +49,7 @@ struct CrossWalkInfoWithLinks: View {
                             Text("Volunteer")
                         }
                         DisclosureGroup(content: {
-                            NavigationLink(destination: Text("Minors can only volunteer for 1 hour and accompanied by an adult")) {
+                            NavigationLink(destination: Text("Minors can only volunteer for 1 hour and accompanied by an adult.")) {
                                 Text("Minors")
                             }
                             NavigationLink(destination: Text("Adults can volunteer for a maximum of 3 hours.")) {
