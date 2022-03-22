@@ -12,8 +12,7 @@ struct ContentView: View {
     @State var crosswalkName: String = ""
     @State var crosswalkAddress: String = ""
     
-    // TODO: Replace @State with @AppStorage
-    @State var sizeMultiplier = 1.0
+    @AppStorage("sizeMultiplier") var sizeMultiplier = 1.0
     
     var body: some View {
         NavigationView {
