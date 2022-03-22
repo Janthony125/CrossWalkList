@@ -12,19 +12,13 @@
 		EC70BF3727E2D98A00A57A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC70BF3627E2D98A00A57A19 /* Assets.xcassets */; };
 		EC70BF3A27E2D98A00A57A19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC70BF3927E2D98A00A57A19 /* Preview Assets.xcassets */; };
 		EC70BF4427E2D98A00A57A19 /* CrossWalkListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70BF4327E2D98A00A57A19 /* CrossWalkListTests.swift */; };
-		EC70BF4E27E2D98A00A57A19 /* CrossWalkListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70BF4D27E2D98A00A57A19 /* CrossWalkListUITests.swift */; };
-		EC70BF5027E2D98A00A57A19 /* CrossWalkListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70BF4F27E2D98A00A57A19 /* CrossWalkListUITestsLaunchTests.swift */; };
+		ECC9AE5927E9596900A30730 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9AE5827E9596900A30730 /* Modifier.swift */; };
+		ECC9AE5D27E98A6D00A30730 /* CrosswalkInfoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9AE5C27E98A6D00A30730 /* CrosswalkInfoViews.swift */; };
+		ECC9AE5F27E9A16C00A30730 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9AE5E27E9A16C00A30730 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		EC70BF4027E2D98A00A57A19 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC70BF2727E2D98900A57A19 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EC70BF2E27E2D98900A57A19;
-			remoteInfo = CrossWalkList;
-		};
-		EC70BF4A27E2D98A00A57A19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EC70BF2727E2D98900A57A19 /* Project object */;
 			proxyType = 1;
@@ -41,9 +35,9 @@
 		EC70BF3927E2D98A00A57A19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC70BF3F27E2D98A00A57A19 /* CrossWalkListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossWalkListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC70BF4327E2D98A00A57A19 /* CrossWalkListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossWalkListTests.swift; sourceTree = "<group>"; };
-		EC70BF4927E2D98A00A57A19 /* CrossWalkListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossWalkListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC70BF4D27E2D98A00A57A19 /* CrossWalkListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossWalkListUITests.swift; sourceTree = "<group>"; };
-		EC70BF4F27E2D98A00A57A19 /* CrossWalkListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossWalkListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECC9AE5827E9596900A30730 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		ECC9AE5C27E98A6D00A30730 /* CrosswalkInfoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswalkInfoViews.swift; sourceTree = "<group>"; };
+		ECC9AE5E27E9A16C00A30730 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +55,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC70BF4627E2D98A00A57A19 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +63,6 @@
 			children = (
 				EC70BF3127E2D98900A57A19 /* CrossWalkList */,
 				EC70BF4227E2D98A00A57A19 /* CrossWalkListTests */,
-				EC70BF4C27E2D98A00A57A19 /* CrossWalkListUITests */,
 				EC70BF3027E2D98900A57A19 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +72,6 @@
 			children = (
 				EC70BF2F27E2D98900A57A19 /* CrossWalkList.app */,
 				EC70BF3F27E2D98A00A57A19 /* CrossWalkListTests.xctest */,
-				EC70BF4927E2D98A00A57A19 /* CrossWalkListUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +81,9 @@
 			children = (
 				EC70BF3227E2D98900A57A19 /* CrossWalkListApp.swift */,
 				EC70BF3427E2D98900A57A19 /* ContentView.swift */,
+				ECC9AE5C27E98A6D00A30730 /* CrosswalkInfoViews.swift */,
+				ECC9AE5827E9596900A30730 /* Modifier.swift */,
+				ECC9AE5E27E9A16C00A30730 /* Settings.swift */,
 				EC70BF3627E2D98A00A57A19 /* Assets.xcassets */,
 				EC70BF3827E2D98A00A57A19 /* Preview Content */,
 			);
@@ -116,15 +104,6 @@
 				EC70BF4327E2D98A00A57A19 /* CrossWalkListTests.swift */,
 			);
 			path = CrossWalkListTests;
-			sourceTree = "<group>";
-		};
-		EC70BF4C27E2D98A00A57A19 /* CrossWalkListUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EC70BF4D27E2D98A00A57A19 /* CrossWalkListUITests.swift */,
-				EC70BF4F27E2D98A00A57A19 /* CrossWalkListUITestsLaunchTests.swift */,
-			);
-			path = CrossWalkListUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +144,6 @@
 			productReference = EC70BF3F27E2D98A00A57A19 /* CrossWalkListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EC70BF4827E2D98A00A57A19 /* CrossWalkListUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EC70BF5927E2D98A00A57A19 /* Build configuration list for PBXNativeTarget "CrossWalkListUITests" */;
-			buildPhases = (
-				EC70BF4527E2D98A00A57A19 /* Sources */,
-				EC70BF4627E2D98A00A57A19 /* Frameworks */,
-				EC70BF4727E2D98A00A57A19 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EC70BF4B27E2D98A00A57A19 /* PBXTargetDependency */,
-			);
-			name = CrossWalkListUITests;
-			productName = CrossWalkListUITests;
-			productReference = EC70BF4927E2D98A00A57A19 /* CrossWalkListUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +158,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					EC70BF3E27E2D98A00A57A19 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = EC70BF2E27E2D98900A57A19;
-					};
-					EC70BF4827E2D98A00A57A19 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = EC70BF2E27E2D98900A57A19;
 					};
@@ -221,7 +178,6 @@
 			targets = (
 				EC70BF2E27E2D98900A57A19 /* CrossWalkList */,
 				EC70BF3E27E2D98A00A57A19 /* CrossWalkListTests */,
-				EC70BF4827E2D98A00A57A19 /* CrossWalkListUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +199,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC70BF4727E2D98A00A57A19 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,6 +208,9 @@
 			files = (
 				EC70BF3527E2D98900A57A19 /* ContentView.swift in Sources */,
 				EC70BF3327E2D98900A57A19 /* CrossWalkListApp.swift in Sources */,
+				ECC9AE5D27E98A6D00A30730 /* CrosswalkInfoViews.swift in Sources */,
+				ECC9AE5927E9596900A30730 /* Modifier.swift in Sources */,
+				ECC9AE5F27E9A16C00A30730 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +222,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC70BF4527E2D98A00A57A19 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC70BF5027E2D98A00A57A19 /* CrossWalkListUITestsLaunchTests.swift in Sources */,
-				EC70BF4E27E2D98A00A57A19 /* CrossWalkListUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +229,6 @@
 			isa = PBXTargetDependency;
 			target = EC70BF2E27E2D98900A57A19 /* CrossWalkList */;
 			targetProxy = EC70BF4027E2D98A00A57A19 /* PBXContainerItemProxy */;
-		};
-		EC70BF4B27E2D98A00A57A19 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EC70BF2E27E2D98900A57A19 /* CrossWalkList */;
-			targetProxy = EC70BF4A27E2D98A00A57A19 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -509,42 +447,6 @@
 			};
 			name = Release;
 		};
-		EC70BF5A27E2D98A00A57A19 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B2237HP63K;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.CrossWalkListUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CrossWalkList;
-			};
-			name = Debug;
-		};
-		EC70BF5B27E2D98A00A57A19 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B2237HP63K;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.CrossWalkListUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CrossWalkList;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,15 +473,6 @@
 			buildConfigurations = (
 				EC70BF5727E2D98A00A57A19 /* Debug */,
 				EC70BF5827E2D98A00A57A19 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EC70BF5927E2D98A00A57A19 /* Build configuration list for PBXNativeTarget "CrossWalkListUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC70BF5A27E2D98A00A57A19 /* Debug */,
-				EC70BF5B27E2D98A00A57A19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
