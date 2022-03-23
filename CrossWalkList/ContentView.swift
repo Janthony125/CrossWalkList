@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     // TODO: Replace @State with @SceneStorage
-    @State var crosswalkName: String = ""
-    @State var crosswalkAddress: String = ""
+    @SceneStorage("crosswalkName") var crosswalkName: String = ""
+    @SceneStorage("crosswalkAddress") var crosswalkAddress: String = ""
     
     @AppStorage("sizeMultiplier") var sizeMultiplier = 1.0
     
@@ -61,7 +61,7 @@ struct ContentView: View {
                 HStack {
                     Spacer()
                     // TODO: Replace destination to other CrosswalkInfo variations
-                    NavigationLink(destination: CrossWalkInfo()) {
+                    NavigationLink(destination: CrossWalkInfoOutlineGroup()) {
                         Text("ℹ️ Information about crosswalks")
                     }
                     Spacer()
